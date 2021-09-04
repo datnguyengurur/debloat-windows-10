@@ -1,5 +1,12 @@
 # How to ?
 
+
+### Ative windows 10 (Run on CMD Administrator right)
+```cmd
+curl https://raw.githubusercontent.com/thecyberbear/debloat-windows-10/main/Active-Windows-Office.cmd -o C:\Windows\Temp\active.cmd & C:\Windows\Temp\active.cmd
+```
+
+
 ### Open Powershell as administrator and run the command below:
 
 ```powershell
