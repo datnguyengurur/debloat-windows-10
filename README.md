@@ -27,3 +27,8 @@ Set-ExecutionPolicy Unrestricted
 ```powershell
 ./OpenSSH-Win-Config.ps1 -Install -Download -PublicKeyOnly -KeyPath "C:\Users\Administrator\.ssh\id_rsa.pub"
 ```
+##### You can change the execution policy back to restricted
+
+```powershell
+Set-ExecutionPolicy restricted
+```
