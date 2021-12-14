@@ -4,14 +4,14 @@
 ### Ative windows 10 
 ### Run bellow on CMD Administrator right
 ```cmd
-curl https://raw.githubusercontent.com/thecyberbear/debloat-windows-10/main/Active-Windows-Office.cmd -o C:\Windows\Temp\active.cmd & C:\Windows\Temp\active.cmd
+curl https://raw.githubusercontent.com/nguyenthdat/debloat-windows-10/main/Active-Windows-Office.cmd -o C:\Windows\Temp\active.cmd & C:\Windows\Temp\active.cmd
 ```
 
 
 ### Debloat windows 10 full clean
 ### Open Powershell as administrator and run the command below:
 ```powershell
-IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/thecyberbear/debloat-windows-10/main/DeCrapify.ps1')
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/nguyenthdat/debloat-windows-10/main/DeCrapify.ps1')
 ```
 
 ### Install OpenSSH Server on Windows with Pub key authentication for remote management
